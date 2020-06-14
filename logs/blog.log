@@ -1,0 +1,154 @@
+INFO 2020-06-14 13:24:26,119 autoreload 598 Watching for file changes with StatReloader
+ERROR 2020-06-14 13:24:28,501 log 222 Internal Server Error: /
+Traceback (most recent call last):
+  File "E:\Django\phblog\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\Django\phblog\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\Django\phblog\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: log() takes 0 positional arguments but 1 was given
+ERROR 2020-06-14 13:24:28,502 basehttp 157 "GET / HTTP/1.1" 500 69561
+ERROR 2020-06-14 13:24:30,525 log 222 Internal Server Error: /
+Traceback (most recent call last):
+  File "E:\Django\phblog\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\Django\phblog\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\Django\phblog\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: log() takes 0 positional arguments but 1 was given
+ERROR 2020-06-14 13:24:30,527 basehttp 157 "GET / HTTP/1.1" 500 69549
+INFO 2020-06-14 13:25:13,008 autoreload 222 E:\Django\phblog\phblog\urls.py changed, reloading.
+INFO 2020-06-14 13:25:14,120 autoreload 598 Watching for file changes with StatReloader
+INFO 2020-06-14 13:25:20,542 autoreload 222 E:\Django\phblog\phblog\urls.py changed, reloading.
+INFO 2020-06-14 13:25:21,702 autoreload 598 Watching for file changes with StatReloader
+INFO 2020-06-14 13:25:39,107 autoreload 222 E:\Django\phblog\phblog\urls.py changed, reloading.
+INFO 2020-06-14 13:25:40,217 autoreload 598 Watching for file changes with StatReloader
+INFO 2020-06-14 13:25:50,156 autoreload 222 E:\Django\phblog\phblog\urls.py changed, reloading.
+INFO 2020-06-14 13:25:51,263 autoreload 598 Watching for file changes with StatReloader
+INFO 2020-06-14 13:25:55,187 autoreload 222 E:\Django\phblog\phblog\urls.py changed, reloading.
+INFO 2020-06-14 13:25:56,290 autoreload 598 Watching for file changes with StatReloader
+INFO 2020-06-14 13:26:06,338 autoreload 222 E:\Django\phblog\phblog\urls.py changed, reloading.
+INFO 2020-06-14 13:26:07,425 autoreload 598 Watching for file changes with StatReloader
+INFO 2020-06-14 13:26:34,526 autoreload 222 E:\Django\phblog\phblog\urls.py changed, reloading.
+INFO 2020-06-14 13:26:35,714 autoreload 598 Watching for file changes with StatReloader
+INFO 2020-06-14 13:26:39,625 autoreload 222 E:\Django\phblog\phblog\urls.py changed, reloading.
+INFO 2020-06-14 13:26:40,675 autoreload 598 Watching for file changes with StatReloader
+INFO 2020-06-14 13:26:44,651 autoreload 222 E:\Django\phblog\phblog\urls.py changed, reloading.
+INFO 2020-06-14 13:26:45,894 autoreload 598 Watching for file changes with StatReloader
+ERROR 2020-06-14 13:27:40,079 log 222 Internal Server Error: /
+Traceback (most recent call last):
+  File "E:\Django\phblog\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\Django\phblog\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\Django\phblog\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: log() takes 0 positional arguments but 1 was given
+ERROR 2020-06-14 13:27:40,080 basehttp 157 "GET / HTTP/1.1" 500 69328
+INFO 2020-06-14 13:30:28,787 autoreload 222 E:\Django\phblog\phblog\urls.py changed, reloading.
+INFO 2020-06-14 13:30:29,852 autoreload 598 Watching for file changes with StatReloader
+INFO 2020-06-14 13:30:32,460 autoreload 222 E:\Django\phblog\phblog\urls.py changed, reloading.
+INFO 2020-06-14 13:30:33,552 autoreload 598 Watching for file changes with StatReloader
+INFO 2020-06-14 13:30:39,959 urls 23 info
+INFO 2020-06-14 13:30:39,960 basehttp 157 "GET / HTTP/1.1" 200 4
+INFO 2020-06-14 13:40:31,205 autoreload 598 Watching for file changes with StatReloader
+INFO 2020-06-14 13:41:02,676 urls 23 info
+INFO 2020-06-14 13:41:02,677 basehttp 157 "GET / HTTP/1.1" 200 4
+WARNING 2020-06-14 13:41:11,778 log 222 Not Found: /static.index
+WARNING 2020-06-14 13:41:11,778 basehttp 157 "GET /static.index HTTP/1.1" 404 2075
+WARNING 2020-06-14 13:41:19,059 basehttp 157 "GET /static/index HTTP/1.1" 404 1641
+WARNING 2020-06-14 13:41:27,849 basehttp 157 "GET /static/index.html HTTP/1.1" 404 1656
+WARNING 2020-06-14 13:42:04,237 basehttp 157 "GET /static/index.html HTTP/1.1" 404 1656
+INFO 2020-06-14 13:42:33,661 basehttp 157 "GET /static/html/index.html HTTP/1.1" 200 35500
+INFO 2020-06-14 13:42:33,700 basehttp 157 "GET /static/res/images/logo.png HTTP/1.1" 200 2781
+INFO 2020-06-14 13:42:33,701 basehttp 157 "GET /static/res/css/global.css HTTP/1.1" 200 49201
+INFO 2020-06-14 13:42:33,701 basehttp 157 "GET /static/res/layui/css/layui.css HTTP/1.1" 200 52949
+INFO 2020-06-14 13:42:33,738 basehttp 157 "GET /static/res/layui/layui.js HTTP/1.1" 200 6144
+INFO 2020-06-14 13:42:33,819 basehttp 157 "GET /static/res/layui/font/iconfont.woff?v=220 HTTP/1.1" 200 24684
+INFO 2020-06-14 13:42:33,842 basehttp 157 "GET /static/res/mods/index.js?v=3.0.0 HTTP/1.1" 200 19536
+INFO 2020-06-14 13:42:33,864 basehttp 157 "GET /static/res/layui/lay/modules/layer.js?v=3.0.0 HTTP/1.1" 200 22088
+INFO 2020-06-14 13:42:33,873 basehttp 157 "GET /static/res/layui/css/modules/layer/default/layer.css?v=3.1.0 HTTP/1.1" 200 14424
+INFO 2020-06-14 13:42:33,876 basehttp 157 "GET /static/res/layui/lay/modules/jquery.js?v=3.0.0 HTTP/1.1" 200 97647
+INFO 2020-06-14 13:42:33,895 basehttp 157 "GET /static/res/layui/lay/modules/laytpl.js?v=3.0.0 HTTP/1.1" 200 1835
+INFO 2020-06-14 13:42:33,902 basehttp 157 "GET /static/res/layui/lay/modules/form.js?v=3.0.0 HTTP/1.1" 200 7495
+INFO 2020-06-14 13:42:33,909 basehttp 157 "GET /static/res/layui/lay/modules/element.js?v=3.0.0 HTTP/1.1" 200 7460
+INFO 2020-06-14 13:42:33,920 basehttp 157 "GET /static/res/layui/lay/modules/upload.js?v=3.0.0 HTTP/1.1" 200 6679
+INFO 2020-06-14 13:42:33,927 basehttp 157 "GET /static/res/layui/lay/modules/util.js?v=3.0.0 HTTP/1.1" 200 2442
+INFO 2020-06-14 13:42:33,934 basehttp 157 "GET /static/res/mods/face.js?v=3.0.0 HTTP/1.1" 200 6363
+INFO 2020-06-14 13:42:41,523 basehttp 157 "GET /static/html/jie/index.html HTTP/1.1" 200 19356
+INFO 2020-06-14 13:42:41,664 basehttp 157 "GET /static/res/mods/jie.js?v=3.0.0 HTTP/1.1" 200 7077
+INFO 2020-06-14 13:42:42,948 urls 23 info
+INFO 2020-06-14 13:42:42,949 basehttp 157 "GET / HTTP/1.1" 200 4
+INFO 2020-06-14 13:42:48,456 basehttp 157 "GET /static/html/case/case.html HTTP/1.1" 200 15257
+INFO 2020-06-14 13:42:48,483 basehttp 157 "GET /static/res/images/case.png HTTP/1.1" 200 7395
+INFO 2020-06-14 13:42:48,483 basehttp 157 "GET /static/res/images/fly.jpg HTTP/1.1" 200 9577
+INFO 2020-06-14 13:42:48,588 basehttp 157 "GET /static/res/mods/case.js?v=3.0.0 HTTP/1.1" 200 5946
+INFO 2020-06-14 13:42:48,596 basehttp 157 "GET /static/res/layui/lay/modules/laypage.js?v=3.0.0 HTTP/1.1" 200 4318
+WARNING 2020-06-14 13:42:56,071 log 222 Not Found: /templates/login.html
+WARNING 2020-06-14 13:42:56,072 basehttp 157 "GET /templates/login.html HTTP/1.1" 404 2099
+INFO 2020-06-14 13:53:39,396 basehttp 157 "GET /static/res/layui/css/modules/layer/default/icon.png HTTP/1.1" 200 11493
+INFO 2020-06-14 13:53:41,959 basehttp 157 "GET /static/res/layui/css/modules/layer/default/loading-1.gif HTTP/1.1" 200 701
+INFO 2020-06-14 13:53:41,965 basehttp 157 "GET /static/json/signin.js HTTP/1.1" 200 16906
+WARNING 2020-06-14 13:53:42,014 log 222 Not Found: /avatar/3405696.jpg
+WARNING 2020-06-14 13:53:42,015 log 222 Not Found: /avatar/1350384.png
+WARNING 2020-06-14 13:53:42,016 basehttp 157 "GET /avatar/3405696.jpg HTTP/1.1" 404 2093
+WARNING 2020-06-14 13:53:42,016 basehttp 157 "GET /avatar/1350384.png HTTP/1.1" 404 2093
+WARNING 2020-06-14 13:53:42,024 log 222 Not Found: /avatar/2493120.png
+WARNING 2020-06-14 13:53:42,025 log 222 Not Found: /avatar/625632.png
+WARNING 2020-06-14 13:53:42,025 basehttp 157 "GET /avatar/2493120.png HTTP/1.1" 404 2093
+WARNING 2020-06-14 13:53:42,027 basehttp 157 "GET /avatar/625632.png HTTP/1.1" 404 2090
+INFO 2020-06-14 13:53:46,007 basehttp 157 "GET /static/html/jie/add.html HTTP/1.1" 200 9042
+INFO 2020-06-14 13:53:53,901 basehttp 157 "GET /static/html/user/home.html HTTP/1.1" 200 7250
+INFO 2020-06-14 13:53:54,048 basehttp 157 "GET /static/res/mods/user.js?v=3.0.0 HTTP/1.1" 200 9963
+INFO 2020-06-14 13:53:54,060 basehttp 157 "GET /static/res/layui/lay/modules/flow.js?v=3.0.0 HTTP/1.1" 200 2013
+INFO 2020-06-14 13:54:14,035 urls 23 info
+INFO 2020-06-14 13:54:14,036 basehttp 157 "GET / HTTP/1.1" 200 4
+INFO 2020-06-14 16:17:37,308 urls 23 info
+INFO 2020-06-14 16:17:37,308 basehttp 157 "GET / HTTP/1.1" 200 4
+INFO 2020-06-14 16:17:53,904 basehttp 157 "GET /static/index.html HTTP/1.1" 200 12002
+INFO 2020-06-14 16:17:53,939 basehttp 157 "GET /static/md_css/monokai.css HTTP/1.1" 200 4118
+INFO 2020-06-14 16:17:53,940 basehttp 157 "GET /static/common/common.css HTTP/1.1" 200 381
+INFO 2020-06-14 16:17:53,940 basehttp 157 "GET /static/common/jquery.pagination.css HTTP/1.1" 200 523
+INFO 2020-06-14 16:17:53,944 basehttp 157 "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 140942
+INFO 2020-06-14 16:17:53,944 basehttp 157 "GET /static/img/1.jpg HTTP/1.1" 200 78682
+INFO 2020-06-14 16:17:53,953 basehttp 157 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2020-06-14 16:17:53,956 basehttp 157 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2020-06-14 16:17:53,959 basehttp 157 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2020-06-14 16:17:53,963 basehttp 157 "GET /static/js/host.js HTTP/1.1" 200 35
+INFO 2020-06-14 16:17:53,982 basehttp 157 "GET /static/js/index.js HTTP/1.1" 200 530
+INFO 2020-06-14 16:17:53,983 basehttp 157 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2020-06-14 16:17:53,990 basehttp 157 "GET /static/js/jquery.pagination.min.js HTTP/1.1" 200 2935
+INFO 2020-06-14 16:17:58,888 urls 23 info
+INFO 2020-06-14 16:17:58,888 basehttp 157 "GET / HTTP/1.1" 200 4
+INFO 2020-06-14 16:18:02,170 urls 23 info
+INFO 2020-06-14 16:18:02,171 basehttp 157 "GET / HTTP/1.1" 200 4
+INFO 2020-06-14 16:18:05,266 basehttp 157 "GET /static/detail.html HTTP/1.1" 200 8816
+INFO 2020-06-14 16:18:05,290 basehttp 157 "GET /static/prism/prism.css HTTP/1.1" 200 4033
+INFO 2020-06-14 16:18:05,312 basehttp 157 "GET /static/js/detail.js HTTP/1.1" 200 1294
+INFO 2020-06-14 16:18:05,312 basehttp 157 "GET /static/ckeditor/ckeditor-init.js HTTP/1.1" 200 2039
+INFO 2020-06-14 16:18:05,314 basehttp 157 "GET /static/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.js HTTP/1.1" 200 99487
+INFO 2020-06-14 16:18:05,319 basehttp 157 "GET /static/ckeditor/ckeditor/ckeditor.js HTTP/1.1" 200 690627
+INFO 2020-06-14 16:18:05,455 basehttp 157 "GET /static/ckeditor/ckeditor/config.js?t=I3I8 HTTP/1.1" 200 338
+INFO 2020-06-14 16:18:05,466 basehttp 157 "GET /static/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=I3I8 HTTP/1.1" 200 46921
+INFO 2020-06-14 16:18:05,473 basehttp 157 "GET /static/ckeditor/ckeditor/lang/en.js?t=I3I8 HTTP/1.1" 200 19035
+INFO 2020-06-14 16:18:05,483 basehttp 157 "GET /static/ckeditor/ckeditor/styles.js?t=I3I8 HTTP/1.1" 200 5583
+INFO 2020-06-14 16:18:05,491 basehttp 157 "GET /static/ckeditor/ckeditor/plugins/prism/plugin.js?t=I3I8 HTTP/1.1" 200 4333
+INFO 2020-06-14 16:18:05,491 basehttp 157 "GET /static/ckeditor/ckeditor/plugins/codesnippet/plugin.js?t=I3I8 HTTP/1.1" 200 3824
+INFO 2020-06-14 16:18:05,504 basehttp 157 "GET /static/ckeditor/ckeditor/plugins/tableselection/styles/tableselection.css HTTP/1.1" 200 1082
+INFO 2020-06-14 16:18:05,505 basehttp 157 "GET /static/ckeditor/ckeditor/plugins/wsc/skins/moono-lisa/wsc.css HTTP/1.1" 200 1306
+INFO 2020-06-14 16:18:05,505 basehttp 157 "GET /static/ckeditor/ckeditor/plugins/scayt/skins/moono-lisa/scayt.css HTTP/1.1" 200 381
+INFO 2020-06-14 16:18:05,505 basehttp 157 "GET /static/ckeditor/ckeditor/plugins/scayt/dialogs/dialog.css HTTP/1.1" 200 419
+INFO 2020-06-14 16:18:05,506 basehttp 157 "GET /static/ckeditor/ckeditor/plugins/codesnippet/lang/en.js?t=I3I8 HTTP/1.1" 200 369
+INFO 2020-06-14 16:18:05,521 basehttp 157 "GET /static/ckeditor/ckeditor/plugins/copyformatting/styles/copyformatting.css HTTP/1.1" 200 1513
+INFO 2020-06-14 16:18:05,544 basehttp 157 "GET /static/ckeditor/ckeditor/plugins/codesnippet/icons/codesnippet.png?t=I3I8 HTTP/1.1" 200 597
+INFO 2020-06-14 16:18:05,544 basehttp 157 "GET /static/ckeditor/ckeditor/skins/moono-lisa/icons.png?t=95e5d83 HTTP/1.1" 200 12421
+INFO 2020-06-14 16:18:05,556 basehttp 157 "GET /static/ckeditor/ckeditor/contents.css?t=I3I8 HTTP/1.1" 200 2954
+INFO 2020-06-14 16:18:05,556 basehttp 157 "GET /static/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.css HTTP/1.1" 200 2063
+INFO 2020-06-14 16:18:08,315 basehttp 157 "POST /static/detail.html HTTP/1.1" 200 8816
+INFO 2020-06-14 16:18:11,959 basehttp 157 "GET /static/login.html HTTP/1.1" 200 3093
+INFO 2020-06-14 16:18:11,999 basehttp 157 "GET /static/js/login.js HTTP/1.1" 200 677
+INFO 2020-06-14 16:18:16,311 basehttp 157 "GET /static/register.html HTTP/1.1" 200 5239
+INFO 2020-06-14 16:18:16,335 basehttp 157 "GET /static/img/image_code.png HTTP/1.1" 200 3483
+INFO 2020-06-14 16:18:16,349 basehttp 157 "GET /static/js/register.js HTTP/1.1" 200 6407
